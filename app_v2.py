@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 
 
 #load data
-filePath = 'MIBOYS20220101.csv'
-dataURL = 'https://github.com/Frederick-Jerome-Thompson/RankingMI/blob/main/MIBOYS20220101v2.csv'
-allScores = pd.read_csv(dataURL)
+filePath = 'MIBOYS20220101v2.csv'
+#dataURL = 'https://github.com/Frederick-Jerome-Thompson/RankingMI/blob/main/MIBOYS20220101v2.csv'
+allScores = pd.read_csv(filePath)
 
 
 #main chart
